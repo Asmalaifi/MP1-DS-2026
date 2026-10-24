@@ -1,0 +1,79 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background: #f3f6fa;
+color: #243247;
+}
+
+header {
+background: #075b45;
+color: white;
+text-align: center;
+padding: 25px 15px;
+}
+
+main {
+max-width: 1100px;
+margin: 25px auto;
+padding: 0 15px;
+}
+
+section {
+background: white;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 8px;
+}
+
+.indicateurs {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+gap: 15px;
+}
+
+.indicateurs article {
+background: #e7f4ef;
+padding: 15px;
+border-radius: 8px;
+text-align: center;
+}
+
+.indicateurs article p {
+font-size: 24px;
+font-weight: bold;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+th, td {
+padding: 12px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+th {
+background: #075b45;
+color: white;
+}
+
+#statut {
+padding: 15px;
+background: #fff1d6;
+border-left: 5px solid #d89000;
+}
+
+footer {
+text-align: center;
+padding: 20px;
+color: #526174;
+}
+
+@media (max-width: 600px) {
+th, td {
+padding: 8px;
+font-size: 13px;
+}
+}
